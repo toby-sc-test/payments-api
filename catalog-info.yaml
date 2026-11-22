@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payments-api
+  annotations:
+    servicenow.com/ci: CI-APP-00004
+spec:
+  type: service
+  owner: group:payments-team
